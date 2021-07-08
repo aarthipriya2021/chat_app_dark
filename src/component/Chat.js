@@ -15,7 +15,17 @@ export const Chat = () => {
     
     return (
         <div>
-            <SignOut />
+            {/* <div className='header-chat'>
+                <span>
+                    <img src={auth.currentUser.photoURL} alt="" />
+                </span>
+                <span style={{display:'flex', position:'fixed', marginTop:'29px', marginLeft:'-30px', fontWeight:'600', color:'#395dff', fontFamily:'sans-serif' }}>{auth.currentUser.displayName}</span>
+            </div> */}
+            <div>
+                <SignOut />
+            </div>
+            
+            
             <div className="msgs">
                 {messages.map(({ id, text, photoURL, uid}) => (
                     <div>

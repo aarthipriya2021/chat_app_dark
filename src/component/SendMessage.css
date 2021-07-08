@@ -1,0 +1,28 @@
+/* .sendMessage-input {
+    width: 1185px;
+    background-color: black;
+    border-radius: 50px;
+    height: 50px;
+    color: white;
+    
+
+    
+}
+.send {
+    background-color: #395dff;
+    border-radius: 100px;
+    height: 35px;
+    margin-top: 8px;
+} */
+.sendMessage-input {
+    width: 1185px;
+    background-color: white;
+    border-radius: 50px;
+    height: 50px;
+}
+.send {
+    background-color: #395dff;
+    border-radius: 100px;
+    height: 35px;
+    margin-top: 8px;
+}
